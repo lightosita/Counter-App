@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Counter</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- create the buttons for counting -->
+<div class="container">
+
+    <h1 id="time"></h1>
+    <button onmousemove="showDate()">WELCOME!!!!</button>
+    <br>
+    <h2 class="display">People Counter: </h2>
+
+    <P id="count-el">0</P>
+    <p id="save-el">Previous Count: </p>
+    <button onclick="addCount()" id="count-btn">COUNT</button>
+    <button onclick="saveCount()" id="save-btn">SAVE</button>
+</div>
+
+    <br>
+    <div>
+        <footer>
+            <small>@lightosita All rights reserved!! 2022</small>  
+             </footer>
+         
+    </div>
+   
+    <script src="./index.js"></script>
+</body>
+</html>

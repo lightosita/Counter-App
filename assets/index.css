@@ -1,0 +1,104 @@
+.container {
+    border
+}
+
+
+body{
+    margin :0;
+    padding :0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-image: url(../assets/pics/carton.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align:center;
+}
+
+
+/* styling the h1 element */
+
+h1{
+    color: #04fad1;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+/* styling the h2 element */
+
+.display{
+    color:rgb(255, 255, 0);
+    font-size: 3rem;
+
+
+}
+
+/* styling the buttons*/
+button{
+    background-color: rgba(83, 236, 13, 0.605);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* styling button text*/
+#time{
+    font-size: 20px;
+    
+}
+
+/* count btn */
+#count-btn{
+    font-size: 15px;
+    font-weight: bold;
+    color : white;
+    
+}
+#save-btn{
+    font-size: 15px;
+    font-weight: bold;
+    color : white;
+    
+}
+
+#sum-el{
+    color:white;
+    font-size: 3rem;
+    
+
+}
+
+#count-el{
+color:hsl(324, 88%, 48%);
+font-size: 2rem;
+}
+footer small{
+    color: aqua;
+}
+
+@media screen (min-width: 1024px){
+    body{
+        background-size:cover;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align:center;
+    
+    (max-width:1440px)
+    }
+   
+    button{
+        background-color:#2406ba;
+    }
+}
+
+
