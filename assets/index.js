@@ -1,4 +1,4 @@
-
+// show date function
 
 function showDate(){
   var time = document.getElementById("time");
@@ -20,7 +20,7 @@ function addCount(){
    countEl.textContent= count
 }
 
-
+// function to save count
 
 function saveCount(){
   let countStr = count + "-"
@@ -29,25 +29,6 @@ function saveCount(){
   count = 0
 
 }
-
-{/* <script>
-    const menu = document.querySelector('.menu')
-    const close = document.querySelector('.close')
-    const nav = document.querySelector(nav)
-
-    menu.addEventListener('click', () => 
-    {
-      nav.classList.add('open-nav')
-    })
-
-    close.addEventListener('click', () => 
-    {
-      nav.classList.remove('open-nav')
-    })
-    
-  </script> */}
-
-
 
   
 

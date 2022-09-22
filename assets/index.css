@@ -1,6 +1,4 @@
-.container {
-    border
-}
+
 
 
 body{
@@ -8,13 +6,21 @@ body{
     padding :0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-    background-image: url(../assets/pics/carton.png);
+    background:rgb(38, 1, 47);
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     text-align:center;
 }
+
+/* styling welcome button */
+.wel-btn{
+    color:#fff;
+    font-weight:bolder;
+}
+
+
 
 
 /* styling the h1 element */
@@ -24,6 +30,12 @@ h1{
     font-size: 30px;
     font-style: italic;
 
+}
+/* styling p elememt  */
+#save-el{
+    color:#2406ba;
+    font-weight:bold;
+    font-size:30px;
 }
 
 /* styling the h2 element */
@@ -44,7 +56,7 @@ button{
     padding-bottom: 10px;
     width: 200px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
@@ -85,7 +97,7 @@ footer small{
     color: aqua;
 }
 
-@media screen (min-width: 1024px){
+@media screen and (min-width: 1024px){
     body{
         background-size:cover;
     background-position: absolute;
@@ -93,12 +105,16 @@ footer small{
     height: 100vh;
     text-align:center;
     
-    (max-width:1440px)
+    
     }
    
     button{
         background-color:#2406ba;
     }
+}
+
+footer{
+    margin-top:10em;
 }
 
 
